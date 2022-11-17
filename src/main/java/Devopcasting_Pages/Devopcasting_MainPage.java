@@ -7,11 +7,22 @@ import org.openqa.selenium.support.How;
 public class Devopcasting_MainPage 
 {
 
-	@FindBy (how = How.XPATH, using="//a[text()='How to Secure Docker Daemon']")
-	WebElement Dockerlink;
+	@FindBy (how = How.XPATH, using="//a[contains(text(),'Git – Distributed Version Control System')]")
+	WebElement Githublink;
 	
 	@FindBy (how = How.XPATH, using= "//button[@data-cky-tag='accept-button']")
 	WebElement Acceptcookies;
+	
+	@FindBy (how = How.XPATH, using= "//a[normalize-space()='How to Secure Docker Daemon']")
+	WebElement Dockerlink;
+	
+	@FindBy (how = How.XPATH, using= "a[title='Home'][tabindex='-1']")
+	WebElement Homebutton;
+	 
+	public WebElement Homebutton()
+	{
+		return Homebutton();
+	}
 	
 	public void Accept_Cookies()
 	{
@@ -22,7 +33,10 @@ public class Devopcasting_MainPage
 		Dockerlink.click();
 	}
 	
-	//@FindBy(how = How.ID, using=" element-id")
-	//private WebElement element-name;
+	public void Githublink()
+	{
+		Githublink.click();
+	}
+
 	
 }

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-16T17:40:33 PST" name="Default suite" finished-at="2022-11-16T17:44:51 PST" duration-ms="257848">
+  <suite started-at="2022-11-17T19:54:04 IST" name="Default suite" finished-at="2022-11-17T19:54:41 IST" duration-ms="36503">
     <groups>
     </groups>
-    <test started-at="2022-11-16T17:40:33 PST" name="Default test" finished-at="2022-11-16T17:44:51 PST" duration-ms="257848">
+    <test started-at="2022-11-17T19:54:04 IST" name="Default test" finished-at="2022-11-17T19:54:41 IST" duration-ms="36503">
       <class name="Devopcasting_testcases.Devopcasting_Docker_Test">
-        <test-method signature="Opendocker()[pri:0, instance:Devopcasting_testcases.Devopcasting_Docker_Test@131774fe]" started-at="2022-11-16T17:40:33 PST" name="Opendocker" finished-at="2022-11-16T17:44:51 PST" duration-ms="257767" status="PASS">
+        <test-method signature="Opendocker()[pri:0, instance:Devopcasting_testcases.Devopcasting_Docker_Test@1189dd52]" started-at="2022-11-17T19:54:04 IST" name="Opendocker" finished-at="2022-11-17T19:54:41 IST" duration-ms="36457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Opendocker -->
